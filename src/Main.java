@@ -1,11 +1,20 @@
+import ex.observer.Calculator;
+import ex.observer.ProgressBar;
+import ex.observer.Synchro;
 import vehicule.*;
 
 public class Main {
     public static void main(String[] args) {
-        AssuranceContract contract = new MotorcyleAssuranceContract(new MotorCycle("1234", "Yamaha"));
-        AssuranceContract contract2 = new CarAssuranceContract(new Car("1234", "Renault"));
+        Synchro sync = new Synchro();
+        Synchro sync2 = new Synchro();
+        Calculator calc = new Calculator();
+        sync.addObserver(calc);
+        sync2.addObserver(calc);
 
-        contract.calculateEstimate();
-        contract2.calculateEstimate();
+        ProgressBar progressBar = new ProgressBar();
+        calc.addObserver(progressBar);
+
+        sync.calculate(1, 2);
+        sync2.calculate(3, 4);
     }
 }

@@ -4,26 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8813c38-5554-4ff7-838e-60087df857c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehicule/AssuranceContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehicule/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehicule/CarAssuranceContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehicule/MotorCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehicule/MotorcyleAssuranceContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vehicule/Vehicule.java" afterDir="false" />
+    <list default="true" id="b8813c38-5554-4ff7-838e-60087df857c1" name="Changes" comment="azfazfazf">
+      <change afterPath="$PROJECT_DIR$/src/ex/observer/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex/observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex/observer/ProgressBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex/observer/Synchro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,19 +82,31 @@
       <updated>1686988893884</updated>
       <workItem from="1686988895109" duration="711000" />
       <workItem from="1686989614514" duration="1020000" />
-      <workItem from="1686990766904" duration="753000" />
+      <workItem from="1686990766904" duration="2437000" />
     </task>
+    <task id="LOCAL-00001" summary="azfazfazf">
+      <created>1686991811779</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686991811779</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="azfazfazf" />
+    <option name="LAST_COMMIT_MESSAGE" value="azfazfazf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>2</line>
+          <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
